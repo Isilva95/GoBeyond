@@ -1,0 +1,91 @@
+footer {
+  margin-top: 200px;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Nunito;
+}
+
+footer .address {
+  color: #fff;
+}
+
+footer .address h3{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+
+footer .address h3::after{
+  display: block;
+  height: 5px;
+  width: 45px;
+  background-color: #fff;
+  content: "";
+  margin-top: 16px;
+}
+
+
+
+footer .address a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+footer .contact ul li{
+  background-color: #fff;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+footer .contact ul li:last-child{
+  margin-bottom: 0;
+}
+
+footer .contact ul li a{
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
+
+footer .contact ul li a::before{
+  content: '';
+  background-repeat: no-repeat;
+  background-image: url('image/ico-email.png');
+  height: 16px;
+  width: 16px;
+  background-size: 100% 100%;
+  display: inline-block;
+  margin-right: 18px;
+  border-radius: 5px;
+}
+
+footer .contact ul li:last-child a::before{
+  background-repeat: no-repeat;
+  background-image: url('image/ico-headphone.png');
+}
+
+@media screen and (max-width: 375px){
+  footer {
+    background: #f00;
+  }
+}
+
+footer .created p {
+  width: 64.55px;
+  height: 12.21px;
+
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.6017px;
+  line-height: 14px;
+
+  color: #fff;
+}
